@@ -1,5 +1,9 @@
+import '../assets/css/lateral.css'
+
 export function Lateral () {
     return (
-        <div></div>
+        <div className='Lateral'>
+            Not hehe
+        </div>
     )
 }

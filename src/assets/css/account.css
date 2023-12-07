@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+.account_container{
+    width: 85vw;
+    margin-left: 15vw;
+}
 .Account_header{
     background-image: url(../UIcomponents/background-sky.jpeg);
     background-size: cover;
@@ -11,6 +15,7 @@
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    box-shadow: 10px 5px 5px rgb(25, 167, 117);
 }
 
 .Account_header h6{
@@ -24,12 +29,20 @@
 }
 
 /* Раздел красивой кнопки */
+.BtnControl{
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
 .BtnNext{
     background-color: black;
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
     border: unset;
-    font-size: 1.3rem;
+    font-size: 1rem;
     border-radius: 50%;
+}
+.TrackList{
+    height: 100vh;
+    background-color: rgb(17,20,20);
 }
