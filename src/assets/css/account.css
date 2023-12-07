@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Account_header{
+    background-image: url(../UIcomponents/background-sky.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 230px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.Account_header h6{
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.Account_header h1{
+    font-size: 5rem;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+/* Раздел красивой кнопки */
+
+.BtnNext{
+    background-color: black;
+    height: 2rem;
+    width: 2rem;
+    border: unset;
+    font-size: 1.3rem;
+    border-radius: 50%;
+}
