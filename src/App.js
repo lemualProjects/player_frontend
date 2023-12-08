@@ -5,7 +5,7 @@ import { Account } from './components/account'
 export function App() {
     return (
         <div className="app">
-            <div className='container'>
+            <div>
                 <div className='Main'>
                     <Lateral/>
                     <Account className='Account'/>

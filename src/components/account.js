@@ -15,6 +15,11 @@ export function Account () {
                 </div>
             </div>
             <div className='TrackList'>
+                <div className='TrackList_Control'>
+                    <button className='TrackList_Control_BtnPlay'>&#9658;</button>
+                    <button></button>
+                    <span class="material-symbols-outlined">more_horiz</span>
+                </div>
                 <ul>
                     <li>1</li>
                     <li>2</li>
